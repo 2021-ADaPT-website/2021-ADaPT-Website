@@ -73,6 +73,8 @@ function createItem3(name, imageSource, description, pageLink, targetDiv, parent
 
     var nextLine2 = document.createElement('p');
     document.getElementById(divName).appendChild(nextLine2);
+
+    btn.id="";
 }
 
 function sf(){window.alert("You finished the game!")};
