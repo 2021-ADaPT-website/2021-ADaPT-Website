@@ -22,7 +22,7 @@ function createItem2(name, imageSource, description, pageLink) {
 }
 
 function myFunction(targetDiv) {
-  var x = document.getElementById(("myDiv" + 1).trim());
+  var x = document.getElementById(("myDiv" + targetDiv).trim());
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -40,6 +40,7 @@ function createItem3(name, imageSource, description, pageLink, targetDiv, parent
     btn.className="projectCard";
     btn.id="buttonHead";
     btn.onclick = myFunction;
+    btn.value = 1;
     document.getElementById(parentID).appendChild(btn);
 
     var projectTitle = document.createElement('p');
