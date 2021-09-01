@@ -1,0 +1,171 @@
+  
+a{
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: #534D6C;
+    color: white;
+    background-image: url('../../images/bagel bg.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    font-size: 30pt;
+    font-family:monospace;
+}
+
+th{
+    font-size: 50pt;
+}
+
+td {
+    font-size: 45pt;
+}
+
+table {
+    text-align: center;
+}
+
+.subColumn {
+    float: left;
+    width: 50%;
+  }
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.projectName{
+    font-size: 35pt;
+}
+
+.projectDesc{
+    font-size: 20pt;
+}
+
+.timeText{
+    font-size: 55pt;
+}
+
+.profilePicture{
+    height: 2.5in;
+}
+
+.profileName{
+    font-size: 30pt;
+}
+
+.projectImg{
+    height: 3in;
+}
+
+.profileDesc{
+    font-size: 18pt;
+    width:inherit;
+    align-items: center;
+}
+
+.projectCard{
+    background-color: grey;
+    padding: 15px;
+    border: 10px solid black;
+    margin: 0;
+    width: 6in;
+}
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+
+  .groupProjectButton {
+      width: 7in;
+      height: 1in;
+      font-family:serif;
+      font-size: 55pt;
+  font-size: 35pt;
+  background-color:rgb(214, 195, 148);
+border-width: .1in;
+border-color: ivory;
+}
+
+  .userProjectsButton{
+    width: 1.5in;
+    height: .5in;
+    font-family:serif;
+    font-size: 55pt;
+    outline-width: 3px;
+outline-style: solid;
+font-size: 20pt;
+outline-color: rgb(0, 0, 0);
+  }
+
+  .notification{
+    box-sizing: content-box;
+    text-align: left;
+      background-color: rgba(255, 255, 255, 0.315);
+      font-size: 17pt;
+      outline-width: 3px;
+  outline-style: solid;
+  outline-color: rgba(255, 255, 255, 0.514);
+      width: fit-content;
+      padding: 5px;
+      font-family: sans-serif;
+  }
+
+  .mainMenuDropdown{
+        background-color: grey;
+        outline-width: 5px;
+        outline-style: solid;
+        outline-color: grey;
+  }
+
+  .titleImage{
+      width: 6in;
+      height: 1.5in;
+  }
+
+  .viewbutton{
+      background-color: white;
+color: black;
+      
+height: 0.55in;
+padding: 3%;
+font-size: 35pt;
+
+      outline-width: 3px;
+  outline-style: solid;
+  outline-color: black;
+  }
+
+  .projectCardDivBG{
+      background-color: #ffffff00;
+      
+      border-width: .0in;
+  }
