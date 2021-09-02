@@ -83,7 +83,12 @@ table {
 }
 
 .personalPageAboutMe{
-    //
+    
+}
+
+.linkStyle{
+    color: blue;
+    text-decoration: underline;
 }
 
 .projectCard{
