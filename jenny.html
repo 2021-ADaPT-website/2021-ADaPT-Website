@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css.css">
+        <script src="home_page.js"></script>
+        <script type="text/javascript" src="test.js"></script>
+    </head>
+    <body>
+<p class="personalPageTitle">Jenny's Projects</p>
+<p class = "personalPageSubtitle">Last Updated: 9/2/2021</p>
+<p class = "personalPageAboutMe">description</p>
+
+        <div class="row">
+            <div class="column" id="pastHost">
+                <h1  >PAST</h1>
+                
+                
+                <button onclick="toggleElement(102)" class="projectCard">
+                    <p class="timeText">Shenanidungeons</p>
+                    <div id="myDIV102" style="display: none;">
+                    <img class="projectImg" src="">
+                    <p class="projectDesc">A collaboration between Myself, Jacob, Owen, and Reece for our ADaPT 2020-2021 Final Project.</p>
+                </div>
+                </button>
+
+            </div>
+            <div class="column">
+                <h1>PRESENT</h1>
+                <button onclick="toggleElement(201)" class="projectCard">
+                    <p class="timeText">Project1</p>
+                    <div id="myDIV201" style="display: none;">
+                    <img class="projectImg" src="images/reece_future.png">
+                    <p class="projectDesc">Description</p>
+                    </div>
+                    </button>
+
+            </div>
+            
+            <div class="column">
+                <h1>FUTURE</h1>
+                
+                <button onclick="toggleElement(301)" class="projectCard">
+                    <p class="timeText">Project2</p>
+                    <div id="myDIV301" style="display: none;">
+                    <img class="projectImg" src="images/reece_future.png">
+                    <p class="projectDesc">Description</p>
+                    </div>
+                    </button>
+                    
+            </div>
+        </div>
+        <br><br>
+    </body>
+</html>
