@@ -83,7 +83,7 @@ table {
 }
 
 .personalPageAboutMe{
-    
+    font-size: .3in;
 }
 
 .linkStyle{
@@ -96,7 +96,7 @@ table {
     padding: 15px;
     border: 10px solid black;
     margin: 0;
-    width: 5in;
+width: initial;
 }
 
 .vertical-menu {
