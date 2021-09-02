@@ -75,6 +75,13 @@ table {
     align-items: center;
 }
 
+.personalPageTitle{
+    font-size: .8in;
+}
+.personalPageSubtitle{
+    font-size: .2in;
+}
+
 .projectCard{
     background-color: grey;
     padding: 15px;
