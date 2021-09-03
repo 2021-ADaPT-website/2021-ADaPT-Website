@@ -1,0 +1,56 @@
+body {
+    background-color: #534D6C;
+    color: white;
+    background-image: url('../../images/bagel bg.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    font-size: 30pt;
+    font-family:monospace;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.projectName{
+    font-size: 35pt;
+}
+
+.projectDesc{
+    font-size: 20pt;
+}
+
+
+.profilePicture{
+    height: 2.5in;
+}
+
+.projectImg{
+    width: 3in;
+}
+
+.timeText{
+    font-size: 40pt;
+}
+
+.linkStyle{
+    color: blue;
+    text-decoration: underline;
+}
+
+.projectCard{
+    background-color: grey;
+    padding: 15px;
+    border: 10px solid black;
+    margin: 0;
+width: 6in;
+}
