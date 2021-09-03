@@ -99,6 +99,13 @@ table {
 width: 6in;
 }
 
+.projectPageBackButton{
+    font-size: .2in;
+    padding: 0.05in;
+border-width: .1in;
+border-color: ivory;
+}
+
 .vertical-menu {
     width: 200px; /* Set a width if you like */
   }
