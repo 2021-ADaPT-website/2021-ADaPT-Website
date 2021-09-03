@@ -29,6 +29,12 @@ body {
     font-size: 20pt;
 }
 
+.projectPageBackButton{
+    font-size: .2in;
+    padding: 0.05in;
+border-width: .1in;
+border-color: ivory;
+}
 
 .profilePicture{
     height: 2.5in;
