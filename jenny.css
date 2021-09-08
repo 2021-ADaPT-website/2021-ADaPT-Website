@@ -1,0 +1,60 @@
+body {
+    background-color:rgb(247, 233, 248);
+    color:rgb(179, 178, 178);
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    font-size: 24pt;
+    font-family:fantasy;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.projectName{
+    font-size: 35pt;
+}
+
+.projectDesc{
+    font-size: 20pt;
+}
+
+.projectPageBackButton{
+    font-size: .2in;
+    padding: 0.05in;
+border-width: .1in;
+border-color: ivory;
+}
+
+.profilePicture{
+    height: 2.5in;
+}
+
+.projectImg{
+    width: 3in;
+}
+
+.timeText{
+    font-size: 40pt;
+}
+
+.linkStyle{
+    color: blue;
+    text-decoration: underline;
+}
+
+.projectCard{
+    background-color: grey;
+    padding: 15px;
+    border: 10px solid black;
+    margin: 0;
+width: 6in;
+}
