@@ -52,7 +52,7 @@ border-color: ivory;
 }
 
 .projectImg{
-    width: 3in;
+    height: 3in;
 }
 
 .timeText{
@@ -69,5 +69,6 @@ border-color: ivory;
     padding: 15px;
     border: 10px solid black;
     margin: 0;
-width: 6in;
+    max-width: 6in;
+    width:initial;
 }
