@@ -10,21 +10,6 @@ body {
     font-family:monospace;
 }
 
-.column {
-    align-content: center;
-    float: left;
-    width: 6in;
-    margin-left: auto;
-    margin-right: auto;
-}
-  
-  .row {
-    content: "";
-    display: table;
-    clear: both;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
 .projectName{
     font-size: 35pt;

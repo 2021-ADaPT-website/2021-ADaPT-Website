@@ -149,6 +149,22 @@ font-size: 20pt;
 outline-color: rgb(0, 0, 0);
   }
 
+  .column {
+    align-content: center;
+    float: left;
+    width: 6in;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+  .row {
+    content: "";
+    display: table;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .notification{
     box-sizing: content-box;
     text-align: left;
