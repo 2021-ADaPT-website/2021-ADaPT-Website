@@ -157,7 +157,7 @@ outline-color: rgb(0, 0, 0);
       outline-width: 3px;
   outline-style: solid;
   outline-color: rgba(255, 255, 255, 0.514);
-      width: 500px;
+      width: fit-content;
       padding: 5px;
       font-family: sans-serif;
   }
