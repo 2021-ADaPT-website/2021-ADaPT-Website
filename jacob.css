@@ -35,11 +35,3 @@ body {
     color: blue;
     text-decoration: underline;
 }
-
-.projectCard{
-    background-color: grey;
-    padding: 15px;
-    border: 10px solid black;
-    margin: 0;
-width: 6in;
-}

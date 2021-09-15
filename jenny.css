@@ -8,16 +8,6 @@ body {
     font-family:fantasy;
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-}
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
 .projectName{
     font-size: 35pt;
@@ -49,12 +39,4 @@ border-color: ivory;
 .linkStyle{
     color: blue;
     text-decoration: underline;
-}
-
-.projectCard{
-    background-color: grey;
-    padding: 15px;
-    border: 10px solid black;
-    margin: 0;
-width: 6in;
 }

@@ -208,3 +208,12 @@ font-size: 35pt;
       
       border-width: .0in;
   }
+
+  .projectCard{
+    background-color: grey;
+    padding: 15px;
+    border: 10px solid black;
+    margin: 0;
+    max-width: 5.5in;
+    width:initial;
+}
