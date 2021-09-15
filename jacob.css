@@ -35,3 +35,14 @@ body {
     color: blue;
     text-decoration: underline;
 }
+<<<<<<< HEAD
+=======
+
+.projectCard{
+    background-color: grey;
+    padding: 15px;
+    border: 10px solid black;
+    margin: 0;
+width: 5.5in;
+}
+>>>>>>> baf35b0e849f15fff98797c5a932771195b895b2
