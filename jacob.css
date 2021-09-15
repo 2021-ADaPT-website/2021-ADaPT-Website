@@ -10,28 +10,34 @@ body {
     font-family:cursive;
 }
 
-.projectName{
+.projectName
+{
     font-size: 35pt;
 }
 
-.projectDesc{
+.projectDesc
+{
     font-size: 20pt;
 }
 
 
-.profilePicture{
+.profilePicture
+{
     height: 2.5in;
 }
 
-.projectImg{
+.projectImg
+{
     width: 3in;
 }
 
-.timeText{
+.timeText
+{
     font-size: 40pt;
 }
 
-.linkStyle{
+.linkStyle
+{
     color: blue;
     text-decoration: underline;
 }
