@@ -11,14 +11,19 @@ body {
 }
 
 .column {
+    align-content: center;
     float: left;
-    width: 33.33%;
+    width: 6in;
+    margin-left: auto;
+    margin-right: auto;
 }
   
-  .row:after {
+  .row {
     content: "";
     display: table;
     clear: both;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 .projectName{
@@ -69,6 +74,6 @@ border-color: ivory;
     padding: 15px;
     border: 10px solid black;
     margin: 0;
-    max-width: 6in;
+    max-width: 5.5in;
     width:initial;
 }
