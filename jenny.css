@@ -1,4 +1,5 @@
-body {
+body 
+{
     background-color:rgb(247, 233, 248);
     color:rgb(179, 178, 178);
     background-size:cover;
@@ -9,30 +10,36 @@ body {
 }
 
 
-.projectName{
+.projectName
+{
     font-size: 35pt;
 }
 
-.projectDesc{
+.projectDesc
+{
     font-size: 20pt;
 }
 
-.projectPageBackButton{
+.projectPageBackButton
+{
     font-size: .2in;
     padding: 0.05in;
 border-width: .1in;
 border-color: ivory;
 }
 
-.profilePicture{
+.profilePicture
+{
     height: 2.5in;
 }
 
-.projectImg{
+.projectImg
+{
     width: 3in;
 }
 
-.timeText{
+.timeText
+{
     font-size: 40pt;
 }
 
