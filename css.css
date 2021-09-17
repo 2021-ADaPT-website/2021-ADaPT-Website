@@ -71,8 +71,10 @@ table {
 
 .profileDesc{
     font-size: 18pt;
-    width:inherit;
+    width:5in;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .personalPageTitle{
