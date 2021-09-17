@@ -1,7 +1,7 @@
 body {
     background-color: #534D6C;
     color: white;
-    background-image: url('../../images/windows.jpg');
+    background-image: url('../../images/jacob/windows.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -10,28 +10,38 @@ body {
     font-family:cursive;
 }
 
-.projectName{
+.projectName
+{
     font-size: 35pt;
 }
 
-.projectDesc{
+.projectDesc
+{
     font-size: 20pt;
 }
 
 
-.profilePicture{
+.profilePicture
+{
     height: 2.5in;
 }
 
-.projectImg{
+.projectImg
+{
     width: 3in;
 }
 
-.timeText{
+.timeText
+{
     font-size: 40pt;
 }
 
-.linkStyle{
+.linkStyle
+{
     color: blue;
     text-decoration: underline;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 065eca46dee8f74d307594376e25e4d100d19d3a
