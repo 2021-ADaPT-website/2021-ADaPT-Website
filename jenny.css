@@ -43,7 +43,8 @@ border-color: ivory;
     font-size: 40pt;
 }
 
-.linkStyle{
+.linkStyle
+{
     color: blue;
     text-decoration: underline;
 }
