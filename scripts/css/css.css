@@ -24,9 +24,6 @@ td {
     font-size: 45pt;
 }
 
-table {
-    text-align: center;
-}
 
 .subColumn {
     float: left;
@@ -38,7 +35,6 @@ table {
     width: 33.33%;
 }
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
@@ -71,7 +67,13 @@ table {
 
 .profileDesc{
     font-size: 18pt;
+<<<<<<< HEAD:css.css
     width: 5in;
+||||||| 065eca4:css.css
+    width:inherit;
+=======
+    width:5in;
+>>>>>>> 440f5134295094ea4fcfabbd451288ff03853b28:scripts/css/css.css
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -175,7 +177,7 @@ outline-color: rgb(0, 0, 0);
       outline-width: 3px;
   outline-style: solid;
   outline-color: rgba(255, 255, 255, 0.514);
-      width: fit-content;
+      width: 6in;
       padding: 5px;
       font-family: sans-serif;
   }
